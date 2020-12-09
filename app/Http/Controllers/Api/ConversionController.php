@@ -38,7 +38,7 @@ class ConversionController extends Controller
      * @param int $number
      * @return \Illuminate\Http\JsonResponse
      */
-    public function displayConversion($number)
+    public function displayConversion(int $number)
     {
         $validator = Validator::make(['number' => $number],
             [
@@ -57,7 +57,7 @@ class ConversionController extends Controller
      * @param int $number
      * @return \Illuminate\Http\JsonResponse
      */
-    public function convert($number)
+    public function convert(int $number)
     {
         $validator = Validator::make(['number' => $number],
             [

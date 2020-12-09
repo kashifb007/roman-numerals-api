@@ -21,6 +21,6 @@ https://roman.preview1.co/api/convert/123
 3. List all stored conversions (10 per page)
 https://roman.preview1.co/api/convert/list
 4. List top 10
-https://roman.preview1.co/api/convert/test/top
+https://roman.preview1.co/api/convert/top
 
 

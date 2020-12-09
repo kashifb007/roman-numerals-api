@@ -23,7 +23,7 @@ Route::get('/convert/test/{number}', 'ConversionController@displayConversion');
  * To store a conversion
  * Could have used a POST but would then have to test using POSTMAN
  */
-Route::get('/convert/{number}', 'ConversionController@convert')
+Route::get('/convert/{number}', 'ConversionController@convert')->where('number', '^[1-9][0-9]*$')
     ->name('conversions.create');
 
 /**
