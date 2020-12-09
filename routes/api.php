@@ -23,18 +23,18 @@ Route::get('/convert/test/{number}', 'ConversionController@displayConversion');
  * To store a conversion
  * Could have used a POST but would then have to test using POSTMAN
  */
-Route::get('/convert/{number}', 'ConversionController@convert')->where('number', '^[1-9][0-9]*$')
+Route::get('/convert/{number}', 'ConversionController@convert')
     ->name('conversions.create');
 
 /**
  * Endpoint 2
  * 10 at a time starting from newest entries
  */
-Route::get('/convert/list', 'ConversionController@displayConversionList')
+Route::get('/convert_list', 'ConversionController@displayConversionList')
     ->name('conversions.get');
 
 /**
  * Endpoint 3
  * The top 10 converted integers
  */
-Route::get('/convert/top', 'ConversionController@displayTopTen');
+Route::get('/convert_top', 'ConversionController@displayTopTen');
