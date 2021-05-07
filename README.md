@@ -15,12 +15,12 @@ Provide authentication.
 #### Testing URLs.
 
 1. Test a conversion
-https://roman.preview1.co/api/convert/test/11
+https://roman.preview1.co.uk/api/convert/test/11
 2. Store a conversion
-https://roman.preview1.co/api/convert/123
+https://roman.preview1.co.uk/api/convert/123
 3. List all stored conversions (10 per page)
-https://roman.preview1.co/api/convert_list
+https://roman.preview1.co.uk/api/convert_list
 4. List top 10
-https://roman.preview1.co/api/convert_top
+https://roman.preview1.co.uk/api/convert_top
 
 
